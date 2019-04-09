@@ -4,7 +4,6 @@ Müşteri Sadakat Api
 ![Müşteri Sadakat Api](https://www.altoros.com/blog/wp-content/uploads/2017/04/IBM-Blockchain-Hyperledger-Fabric-Composer-Open-Source-Toolset.png "Müşteri Sadakat Api")
 
 # Technologies Used
-- 
 - Hyperledger Composer CLI 0.9.4
 - Hyperledger Rest Server 0.19.4
 - Generator Hyperledger Composer 0.19.4

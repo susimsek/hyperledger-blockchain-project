@@ -4,10 +4,13 @@ Müşteri Sadakat Api
 ![Müşteri Sadakat Api](https://www.altoros.com/blog/wp-content/uploads/2017/04/IBM-Blockchain-Hyperledger-Fabric-Composer-Open-Source-Toolset.png "Müşteri Sadakat Api")
 
 # Technologies Used
+- Hyperledger Explorer 0.3.4
 - Hyperledger Composer CLI 0.9.4
 - Hyperledger Rest Server 0.19.4
 - Generator Hyperledger Composer 0.19.4
 - Yeoman
+- Go 1.11.7
+- PostgreSQL 11.2
 - Composer Playground 0.19.4
 - Hyperledger Fabric 1.1.0
 - Docker Engine 18.09.2
@@ -20,8 +23,11 @@ Müşteri Sadakat Api
 
 
 # Requirement for Development and Build
+- Hyperledger Explorer 0.3.4
 - Hyperledger Fabric 1.1.0
 - Hyperledger Composer 0.19.x
+- PostgreSQL 9.5 or greater
+- Go 1.11.x
 - Operating Systems: Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), or Mac OS 10.12 or higher
 - Docker Engine: Version 17.03 or higher
 - Docker-Compose: Version 1.8 or higher

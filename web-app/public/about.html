@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Müşteri Sadakat Programı</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/home">Müşteri Sadakat Programı</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+
+      </ul>
+
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="/about">Hakkında</a>
+        </li>
+
+        <li class="nav-item text-nowrap dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oturum aç</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="/member">Üye</a>
+            <a class="dropdown-item" href="/partner">Şirket</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Müşteri Sadakat Programı</h1>
+      <h4></h4>
+      <p>Bu web uygulaması, <b>Hyperledger Composer API</b> kullanarak <b>blockchain</b> üzerinde bir müşteri sadakat programı göstermektedir.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <br>
+      <p>Müşteri sadakat programı, şirketlerin sık alım yapan müşterilerini ödüllendirmelerini sağlar. Program üyeleri, indirim, ücretsiz veya özel müşteri muamelesi gibi bir çeşit ödüle dönüşebilecek alımlarda puan kazanabilirler.
+        Üyeler, ödüllerini almak için belirli bir noktaya çalışırlar. Bu programlarda bir müşteri tabanına hizmet vermek için programda Şirket olarak birden fazla şirkete sahip olabilir. Ancak, bu sistem ilişkiler üzerinde durmaktadır.
+        <br><br> Müşteri sadakat programı için bu blok zincirleme modeli, sadakat programı üyelerine puanların değerini arttırır ve güvenilir işlemler oluşturarak Şirketlere yeni değerler getirir. Bu ağa katılanların  birbirleri arasında daha fazla seviyeli ilişkisi vardır ve puanlar tüm katılımcıları birbirine bağlamak için merkezî konumdadır.
+        <br><br> Bu kod modelinde, Hyperledger Composer API ve Node.js kullanarak bir blockchain web uygulaması olarak müşteri sadakat programı oluşturacağız. Uygulama, üyelerin hesaplarını oluşturacakları ağa kaydolmalarına izin verecektir.
+        Ağ üzerinde hesap numaralarıyla tanımlanacak ve oturum açmak için kullanacakları bir erişim anahtarı oluşturulacaktır. Bu erişim anahtarı, üyenin işlem yapmak veya kayıtları sorgulamak için kimlik kartı olarak kullanılır.Üye bir kez oturum açtığında, puan kazanmak için işlemler yapabilir ve ağdaki şirketlerden puan alabilir. İşlemlerini blockchain defterinin bir parçası olarak görebilirler. Bu kod kalıbı, bir üyenin işlemlerini yalnızca görebileceği ağın bir parçası olarak izinlerin kullanımını gösterir.
+        <br><br> Şirket için benzer şekilde, ağda bir kimlik ve kayıtlarını görüntülemek için kullanılacak bir erişim anahtarı oluşturarak kayıt olurlar. Şirketlerinizin yalnızca parçası oldukları işlemleri görmelerine izin verilir ve böylece puanları tahsis ettikleri veya kullandıkları tüm işlemlerini takip edebilirler. Web uygulaması, şirket için ayırdıkları ve üyelere kullandıkları toplam puanları gösteren temel bir gösterge tablosunu gösterir. İşlemler karmaşıklaştıkça, şirket bilgilendirici panolar oluşturmak için işlemlerini analiz edebilir.
+      </p>
+      <br>
+      <hr class="featurette-divider">
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
